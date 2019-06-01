@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'star_jediregular';
+    src: url('./webfontkit-20190516-171741/star-jedi_allfont.net-webfont.woff2') format('woff2'),
+         url('./webfontkit-20190516-171741/star-jedi_allfont.net-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    padding-left: 5%;
+    font-family: 'star_jediregular';
+    font-size: 48px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black, 4px 4px 4px #aaa;
+    color: silver;
+    background-image: url("../images/background_original.jpg");
+    background-color: black;
+}
+
+div.character {
+    width: 250px;
+    height: 200px;
+    text-align: center;
+    border: solid 1px white;
+}
+
+div.name, div.hit-points {
+    font-size: 32px;
+}
+
+img.image {
+    width: 50%;
+    height: 50%;
+}
+
+div.character.hero {
+    background-color: green;
+}
+
+div.character.villain {
+    background-color: red;
+}
+
+div.character.defender {
+    background-color: orange;
+}
+
+div.message {
+    font-family: OCR A Std, monospace;
+}
